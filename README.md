@@ -1,14 +1,11 @@
 # DSH History Tree 插件 (Codex-style 对话轮次时间线)
 
+中文 | [English](README.en.md)
+
 为 DeepSeek Harness (DSH) Web 界面提供与 Codex 1:1 一致的**对话轮次时间线点阵**与**悬浮历史概览卡片**。
 
 [![npm version](https://img.shields.io/npm/v/dsh-history-tree.svg)](https://www.npmjs.com/package/dsh-history-tree)
 [![npm downloads](https://img.shields.io/npm/dm/dsh-history-tree.svg)](https://www.npmjs.com/package/dsh-history-tree)
-
-## English
-
-**DSH History Tree** is a DeepSeek Harness (DSH) Web UI plugin that adds a Codex-style conversation turn timeline rail and hover history overview cards to the left edge of chat messages. It supports smooth fish-eye magnification, precise scroll-spy active tracking, auto-loading older history, and click-to-jump between conversation turns.
-
 
 ---
 
@@ -107,7 +104,8 @@ dsh web
 dsh-history-tree/
 ├── cordis.patch.yml   # Cordis 插件 Profile 声明补丁
 ├── package.json       # 模块清单与 client 端 inject 依赖
-├── README.md          # 插件说明文档
+├── README.md          # 中文说明文档
+├── README.en.md       # English documentation
 └── lib/
     ├── index.js       # Host 端（服务端）入口
     └── client.js      # Client 端（前端鱼眼动效、DOM提取、卡片渲染逻辑）
