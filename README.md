@@ -5,6 +5,11 @@
 [![npm version](https://img.shields.io/npm/v/dsh-history-tree.svg)](https://www.npmjs.com/package/dsh-history-tree)
 [![npm downloads](https://img.shields.io/npm/dm/dsh-history-tree.svg)](https://www.npmjs.com/package/dsh-history-tree)
 
+## English
+
+**DSH History Tree** is a DeepSeek Harness (DSH) Web UI plugin that adds a Codex-style conversation turn timeline rail and hover history overview cards to the left edge of chat messages. It supports smooth fish-eye magnification, precise scroll-spy active tracking, auto-loading older history, and click-to-jump between conversation turns.
+
+
 ---
 
 ## 🌟 核心特性
