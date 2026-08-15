@@ -1,0 +1,5 @@
+# dsh-history-tree plugin registration patch
+# Inserts the history-tree plugin row into the web profile roster.
+- insert:
+    - id: history-tree
+      name: 'dsh-history-tree'
