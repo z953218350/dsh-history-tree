@@ -1,6 +1,6 @@
 {
   "name": "dsh-history-tree",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Codex-style conversation turn timeline tree and history overview on the left border of chat messages in DSH Web UI",
   "type": "module",
   "main": "lib/index.js",
