@@ -7,6 +7,8 @@
 [![npm version](https://img.shields.io/npm/v/dsh-history-tree.svg)](https://www.npmjs.com/package/dsh-history-tree)
 [![npm downloads](https://img.shields.io/npm/dm/dsh-history-tree.svg)](https://www.npmjs.com/package/dsh-history-tree)
 
+![DSH History Tree 对话轮次时间线与悬浮卡片](docs/images/history-tree.png)
+
 ---
 
 ## 🌟 核心特性
@@ -106,6 +108,8 @@ dsh-history-tree/
 ├── package.json       # 模块清单与 client 端 inject 依赖
 ├── README.md          # 中文说明文档
 ├── README.en.md       # English documentation
+├── docs/
+│   └── images/        # 说明文档截图与预览图
 └── lib/
     ├── index.js       # Host 端（服务端）入口
     └── client.js      # Client 端（前端鱼眼动效、DOM提取、卡片渲染逻辑）
